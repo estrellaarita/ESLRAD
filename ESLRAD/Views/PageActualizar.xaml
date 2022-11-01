@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESLRAD.Views.PageActualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Entry x:Name="txtcodigo"
+                   Keyboard="Text"
+                   Margin="30,0,30,0"/>
+
+
+                <Label Text="Nombre" TextColor="Black" Margin="30,0,10,0" FontSize="15" />
+
+                <Entry x:Name="txtnombres"
+           TextColor="Green"
+            Keyboard="Text"
+                   Margin="30,0,30,0"/>
+
+                <Label Text="Apellido" TextColor="Black" Margin="30,0,10,0" FontSize="15"/>
+
+                <Entry x:Name="txtapellidos"
+           TextColor="Green"
+            Keyboard="Text"
+                   Margin="30,0,30,0"/>
+
+
+                <Label Text="Edad" TextColor="Black" Margin="30,0,10,0" FontSize="15" />
+
+                <Entry x:Name="txtedad"
+           TextColor="Green"
+            Keyboard="Numeric"
+                   Margin="30,0,30,0"/>
+
+                <Label Text="Pais" TextColor="Black" Margin="30,0,10,0" FontSize="15" />
+
+                <Entry x:Name="txtpais"
+           TextColor="Green"
+            Keyboard="Text"
+                   Margin="30,0,30,0"/>
+
+                <Label Text="Nota" TextColor="Black" Margin="30,0,10,0" FontSize="15" />
+
+                <Entry x:Name="txtnota"
+           TextColor="Black"
+           BackgroundColor="#BADE98"
+            Keyboard="Text"
+                   Margin="30,0,30,0"/>
+
+            <Button Text="Actualizar" 
+                    Font="large" 
+                    BorderWidth="1" 
+                    x:Name="btnActualizar"
+                    BorderColor="Orange"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="50,20,50,20"
+                    Clicked="btnActualizar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

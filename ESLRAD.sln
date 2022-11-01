@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESLRAD.Android", "ESLRAD.Android\ESLRAD.Android.csproj", "{5A690738-0260-4CBA-87CA-C1A93AA9569E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESLRAD", "ESLRAD\ESLRAD.csproj", "{05400589-1EA0-4C15-8F96-65CACACAED1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A690738-0260-4CBA-87CA-C1A93AA9569E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05400589-1EA0-4C15-8F96-65CACACAED1D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97BDABC1-20E0-47E9-A6E3-571CD2C083E4}
+	EndGlobalSection
+EndGlobal

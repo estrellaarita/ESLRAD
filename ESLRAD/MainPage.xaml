@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESLRAD.MainPage">
+
+    <ContentPage.Content>
+    <StackLayout>
+            
+            
+        <Image Source="logo.png"
+                       Aspect="AspectFill"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="50,10,50,10"/>
+        
+            <Label Text="Nombre" TextColor="Black" FontSize="20" />
+
+    <Entry x:Name="txtnombres"
+           TextColor="Green"
+            Keyboard="Text"/>
+
+    <Label Text="Apellido" TextColor="Black" FontSize="20"/>
+
+                <Entry x:Name="txtapellidos"
+           TextColor="Green"
+            Keyboard="Text"/>
+
+
+                <Label Text="Edad" TextColor="Black" FontSize="20" />
+
+                <Entry x:Name="txtedad"
+           TextColor="Green"
+            Keyboard="Numeric"/>
+
+                <Label Text="Pais" TextColor="Black" FontSize="20" />
+
+    <Entry x:Name="txtpais"
+           TextColor="Green"
+            Keyboard="Text"/>
+
+    <Label Text="Nota" TextColor="Black" FontSize="20" />
+
+    <Entry x:Name="txtnota"
+           TextColor="Black"
+           BackgroundColor="#BADE98"
+            Keyboard="Text"/>
+
+            <Button x:Name="btnagregar" Text="Salvar"  BackgroundColor="#7CD727" Clicked="btnagregar_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+            
