@@ -23,11 +23,6 @@
                     VerticalOptions="CenterAndExpand"
                     Margin="50,20,50,20"
                     Clicked="btnEliminar_Clicked"/>
-
-
-
-
-
         </StackLayout>
         </ContentPage.Content>
 </ContentPage>
